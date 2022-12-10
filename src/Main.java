@@ -87,7 +87,11 @@ public class Main {
         }
         // Задача 8
         System.out.println("Задача №8");
-
-
+        for (int yearOfComet = 0; yearOfComet <=3000; yearOfComet =  yearOfComet + 79) {
+            int ourDays = 2022;
+            if (yearOfComet > (ourDays - 200) && yearOfComet < (ourDays + 100)) {
+                System.out.println(yearOfComet);
+            }
+        }
     }
 }
